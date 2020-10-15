@@ -24,6 +24,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <!--<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about2">About 2</a></li>-->
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
@@ -40,7 +41,7 @@
                         <hr class="divider my-4" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 font-weight-light mb-5">Bismillah, hi my name is Oki Kuswanda, I'm a father with 4 kids. My activity now is to become a Database Engineer. but I became a cupping therapist at the weekend. I am happy when contacted or invited to collaborate</p>
+                        <p class="text-white-75 font-weight-light mb-5">Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and start customizing, no strings attached!</p>
                         <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
                     </div>
                 </div>
@@ -69,7 +70,7 @@
                         <div class="mt-5">
                             <i class="fas fa-4x fa-database text-primary mb-4"></i>
                             <h3 class="h4 mb-2">Data Warehouse</h3>
-                            <p class="text-muted mb-0">Implementation Our Hobby With SQL Developer (SSIS/SSAS/SSRS) gunakan teknologi microsoft</p>
+                            <p class="text-muted mb-0">Implementation Our Hobby With SQL Developer (SSIS/SSAS/SSRS) with Microsoft Technology</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
@@ -157,13 +158,27 @@
                 </div>
             </div>
         </section>
+        <!-- About section-->
+        <!--<section class="page-section bg-primary" id="about2">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0">We've got what you need!</h2>
+                        <hr class="divider light my-4" />
+                        <p class="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
+                        <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+                    </div>
+                </div>
+            </div>
+        </section>-->
         <!-- Call to action section-->
-        <section class="page-section bg-dark text-white">
+        <!-- <section class="page-section bg-dark text-white">
+            <div class="powr-instagram-feed" id="5a9ed78f_1591286746"></div><script src="https://www.powr.io/powr.js?platform=bootstrap"></script>
             <div class="container text-center">
                 <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
                 <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
             </div>
-        </section>
+        </section>--> 
         <!-- Contact section-->
         <section class="page-section" id="contact">
             <div class="container">
@@ -192,7 +207,7 @@
         </section>
         <!-- Footer-->
         <footer class="bg-light py-5">
-            <div class="container"><div class="small text-center text-muted">Copyright © 2020 - Thanks To Start Bootstrap</div></div>
+            <div class="container"><div class="small text-center text-muted">Copyright © 2020 - Thanks To Allah SWT, Start Bootstrap, Visual Studio Code, Github, and also Google.com</div></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -202,5 +217,25 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+
+        <!--Jquery-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <!--Floating WhatsApp css-->
+        <link rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
+        <!--Floating WhatsApp javascript-->
+        <script type="text/javascript" src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js"></script>
+        <div id="WAButton"></div>
+        <script type="text/javascript">  
+            $(function () {
+                         $('#WAButton').floatingWhatsApp({
+                        phone: '6281381000684', //WhatsApp Business phone number
+                        headerTitle: 'Chat with us on WhatsApp!', //Popup Title
+                        //popupMessage: 'Hello, how can we help you?', //Popup Message
+                        showPopup: true, //Enables popup display
+                        buttonImage: '<img src="../assets/img/whatsapp.png " />',
+                        position: "right" //Position: left | right
+                    });
+                });
+         </script> 
     </body>
 </html>
